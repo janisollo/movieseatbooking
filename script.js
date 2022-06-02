@@ -16,9 +16,7 @@ function updateSelectedCount() {
 
   console.log(seatsIndex);
 
-  // Map through array
-
-  // Return new array indexes
+  localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
 
   const selectedSeatsCount = selectedSeats.length;
 
